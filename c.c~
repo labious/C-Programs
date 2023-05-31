@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main() {
+	int i,n,x,y,z;
+	char set [7];
+	
+	for(i = 0; i <= 2; i++){ 
+	&set[i] = "devron";
+       /*	"sigmaD", "Sndiego", "Peruser", "mellow" , "drankia" };*/
+	}
+/* go through the character set, and find a set item named mellow,then print each letter of the setname */	
+     	 for(i = 0; i <= sizeof(set)/sizeof(set[0]); i++){
+		if(&set[i] == "mellow") {
+				printf("Found");
+			}
+			else{
+			printf("not found");
+			}	
+	return 0;
+}}
